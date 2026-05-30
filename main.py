@@ -19,4 +19,4 @@ if __name__ == '__main__':
         decisions = classify_emails(batch)
 
         # Apply actions for this batch
-        apply_actions(service, decisions, dry_run=False, permanent_delete=PERMANENT_DEL)
+        apply_actions(service, decisions, dry_run=True, permanent_delete=PERMANENT_DEL)
