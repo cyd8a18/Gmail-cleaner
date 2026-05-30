@@ -1,0 +1,12 @@
+# Virtual environments
+.venv
+
+# Personal prompt
+openai_classify_original.py
+credentials_original.json
+
+# Not used
+claude_classify.py
+
+# Cache
+.pyc
